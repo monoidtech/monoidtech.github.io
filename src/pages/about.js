@@ -12,8 +12,8 @@ const AboutPage = () => (
         <SEO title="About"/>
 
         <div className={"page-header"}>
-            <h2>What’s HiStaff?</h2>
-            <p>HiStaff is a service that boost the staff’s productivity by offering new ways<br />to increase employee motivation and happiness.</p>
+            <h2>What’s Monoid Technologies?</h2>
+            <p>Monoid Ltd. is a consultancy company and a software building house.<br />We specialize in distributed Big Data systems, Machine Learning, data analytics and Blockchain.</p>
         </div>
 
         <div className={"container"}>

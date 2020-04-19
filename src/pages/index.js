@@ -11,11 +11,11 @@ import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="Monoid Technologies - Tech made simple"/>
 
         <div className={"page-header home"}>
-            <h1>Make your Staff and Workspace Happy</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <h1>Technology made simple</h1>
+            <p>Monoid gives your company the opportunity to solve difficult problems<br/>in an efficient and elegant manner.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -31,8 +31,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>Software development</h2>
+                                <p>Our rock star developers can build any solution for you.</p>
                             </div>
                         </div>
                     </div>
