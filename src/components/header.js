@@ -12,6 +12,9 @@ const Header = ({siteTitle}) => (
                         <img alt={"Logo"} src={logo}/>
                     </Link>
                 </div>
+                <div className={"get-started"}>
+                    <a href={"/about"}>About</a>
+                </div>
             </div>
         </div>
     </header>

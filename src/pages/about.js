@@ -19,23 +19,23 @@ const AboutPage = () => (
         <div className={"container"}>
             <div className={"targets"}>
                 <div className={"title"}>
-                    <h2>Our Targets</h2>
+                    <h2>Our Values</h2>
                 </div>
 
                 <div className={"row"}>
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Information"} src={informationImage}/>
-                            <h3>Handling of Employes’s Information and documents</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
+                            <h3>Deliver value</h3>
+                            <p>Monoid Technologies is a company that trully believes in excellence. We are however at the same time pragmatic and our top priority is delivering value to our customers.</p>
                         </div>
                     </div>
 
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Event"} src={eventImage}/>
-                            <h3>Manage Events</h3>
-                            <p>How to hold internal events is one of the problems of companies. HiStaff by presenting new ideas allows event management to be done as easily as possible.</p>
+                            <h3>Being Agile</h3>
+                            <p>We strive in applying the best and most appropriate Agile methodologies in every occasion. Our team is continuously trying to improve and be responsive in an environment where the requirements might change constantly.</p>
                         </div>
                     </div>
                 </div>
@@ -44,16 +44,16 @@ const AboutPage = () => (
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Productivity"} src={ProductivityImage}/>
-                            <h3>Raise productivity</h3>
-                            <p>Many factors are affecting the staff's productivity in the workplace, the relationship between manager and staff and environmental factors are the main factors, therefore we will focus on these two factors in achieving our goal. Ultimately, increasing employee's productivity results in increasing the quality of products and services that are going to be provided.</p>
+                            <h3>Data driven</h3>
+                            <p>We make all our decisions in a data driven way. We automate the data collection, cleaning, augmentation so that we can be in a position of getting insightful information about the problem we try to solve every time.</p>
                         </div>
                     </div>
 
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Happiness"} src={happinessImage}/>
-                            <h3>Boost motivation and happiness</h3>
-                            <p>It is Obvious that a happy employee will make the environment happy and energetic! We are constantly attempting to provide solutions for maximizing employee’s motivation and joy.</p>
+                            <h3>Constant communication</h3>
+                            <p>In Monoid Technologies we believe in honest an constant communication, within our team as well as our clients. Good communication is an essential element for any successful project</p>
                         </div>
                     </div>
                 </div>
