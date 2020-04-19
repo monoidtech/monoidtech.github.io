@@ -37,9 +37,10 @@ body {
     .top-menu {
       display: flex;
       justify-content: space-between;
-
+      
       .get-started {
         a {
+          float: right;
           width: 160px;
           height: 47px;
           font-style: normal;
@@ -47,7 +48,7 @@ body {
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: #8953B7;
+          background: #00b1e4;
           border-radius: 4px;
           text-align: center;
           color: #FFFFFF;
