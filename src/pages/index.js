@@ -2,11 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
+import featureImage from "../../static/images/background-tech.jpg";
+import thumbnailCode from "../../static/images/code.jpg"
+import thumbnailBigData from "../../static/images/big_data.jpg"
+import thumbnailMachineLearning from "../../static/images/ml.jpg"
+import thumbnailBlockchain from "../../static/images/blockchain.jpg"
 import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
@@ -15,7 +15,7 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>Technology made simple</h1>
-            <p>Monoid gives your company the opportunity to solve difficult problems<br/>in an efficient and elegant manner.</p>
+            <p>Monoid Ltd. gives your company the opportunity to solve difficult problems<br/>in an efficient and elegant manner.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -25,7 +25,7 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Event"} src={thumbnailEvent}/>
+                                <img alt={"Event"} src={thumbnailCode}/>
                             </div>
                         </div>
 
@@ -42,14 +42,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>Big Data</h2>
+                                <p>Big data is an asset for any company,<br/>we can help you to use them in a meaningful way for your business.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Board"} src={thumbnailBoard}/>
+                                <img alt={"Big Data"} src={thumbnailBigData}/>
                             </div>
                         </div>
                     </div>
@@ -59,14 +59,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"News"} src={thumbnailNews}/>
+                                <img alt={"News"} src={thumbnailMachineLearning}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                                <h2>Machine learning</h2>
+                                <p>We specialize in Deep learning and classical statistical models.</p>
                             </div>
                         </div>
                     </div>
@@ -76,47 +76,17 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
+                                <h2>Blockchain</h2>
+                                <p>We can help you make the most and apply the bleeding edge blockchain technologies.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
+                                <img alt={"Team"} src={thumbnailBlockchain}/>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailStaff}/>
-                            </div>
-                        </div>
-
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className={"call-to-action"}>
-            <div className={"container"}>
-                <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
-                </div>
-
-                <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
                 </div>
             </div>
         </div>

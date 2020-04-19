@@ -12,10 +12,6 @@ const Header = ({siteTitle}) => (
                         <img alt={"Logo"} src={logo}/>
                     </Link>
                 </div>
-
-                <div className={"get-started"}>
-                    <a href={"https://app.histaff.io"}>Get Started</a>
-                </div>
             </div>
         </div>
     </header>
